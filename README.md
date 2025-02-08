@@ -1,4 +1,4 @@
-# optimization-simulation
+optimization-simulation
 
 # **Data Science: Optimization and Simulation Projects**
 
@@ -8,14 +8,14 @@ This repository showcases a series of **optimization and simulation projects** t
 
 ### **Overview of Projects**
 
-#### **Notebook 1**
+#### **Notebook1**
 1. **Pricing Optimization Problem**  
    - **Description:**  
-     Simulates the demand for two products based on price to find the optimal pricing strategy that maximizes profit. The simulation considers both production costs and price elasticity of demand.
+     Models the demand for two products based on price to find the optimal pricing strategy that maximizes profit. The model considers both production costs and price elasticity of demand.
    
    - **Techniques Used:**  
-     - Demand simulation based on price variations.
-     - Profit scenario modeling.
+     - Demand modeling based on price variations.  
+     - Profit scenario analysis.
 
    - **Key Insight:**  
      Optimal pricing strategies must balance production costs and consumer price sensitivity to maximize profit.
@@ -24,11 +24,11 @@ This repository showcases a series of **optimization and simulation projects** t
 
 2. **Component Cost Simulation Problem**  
    - **Description:**  
-     This problem involves simulating uncertain component costs for a product with multiple parts. Each component's cost follows a probability distribution (e.g., normal distribution), affecting overall production costs.
+     This problem involves simulating uncertain component costs for a product with multiple parts. Each component's cost follows a probability distribution (e.g., normal, exponential, or triangular distribution), affecting overall production costs.
 
    - **Techniques Used:**  
-     - Simulation with probabilistic cost inputs.
-     - Analysis of cost variability and its impact on profitability.
+     - Simulation with probabilistic component cost inputs.  
+     - Analysis of expected profit and risk of loss.
 
    - **Key Insight:**  
      Uncertainty in component costs can significantly impact production costs, emphasizing the need for robust cost forecasting and risk management.
@@ -41,7 +41,7 @@ This repository showcases a series of **optimization and simulation projects** t
      A production facility needs to meet uncertain demand with capacity constraints. This problem uses triangular and normal distributions to simulate both demand and capacity and determines optimal production levels to maximize profit.
 
    - **Techniques Used:**  
-     - Probabilistic demand and capacity modeling.
+     - Probabilistic demand and capacity simulation.  
      - Optimization under uncertainty.
 
    - **Key Insight:**  
@@ -54,8 +54,21 @@ This repository showcases a series of **optimization and simulation projects** t
      This project involves selecting optimal warehouse locations to minimize distribution costs while maximizing service efficiency. The problem is based on a classical optimization approach for facility location.
 
    - **Techniques Used:**  
-     - Optimization algorithms for cost minimization.
+     - Optimization algorithms for cost minimization.  
      - Logistics and network optimization modeling.
 
    - **Key Insight:**  
      Proper warehouse placement has a significant impact on reducing distribution costs and improving service efficiency, especially in complex supply chains.
+
+---
+
+3. **Expanded Operations Optimization Problem**  
+   - **Description:**  
+     This project models and optimizes operations with new variables, including benches and adjusted resource constraints.
+
+   - **Techniques Used:**  
+     - Resource allocation modeling with multiple variables.  
+     - Advanced optimization and problem expansion.
+
+   - **Key Insight:**  
+     Expanding operations and managing additional constraints require flexible optimization models that can adapt to evolving business needs.
